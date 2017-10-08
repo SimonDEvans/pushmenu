@@ -1,0 +1,173 @@
+/* Main body */
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  background-color:#FF6C51; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color:#fff;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive; 
+  color:#fff; 
+  font-size: 4rem;
+}
+
+section {
+  margin:0 auto; 
+  width:75%; 
+  text-align: center;
+}
+
+section img{
+  width:15%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-container {
+  background-color:#FF6C51;  
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  padding: 15px 0 25px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.fa-bars{
+  font-size: 20px;
+  padding: 15px;
+  background-color: #beb5a5;
+  border-radius: 31px;
+}
+
+
+/* Left menu, the side menu is left hidden */
+
+.menu {
+  background: #BFB6A6;
+  left: -300px;  
+  height: 100%;
+  position: fixed;
+  width: 300px;
+}
+
+div.top-nav {
+  text-align: center; 
+  margin:30px 0;
+}
+
+img.logo {
+  width:35%;
+}
+
+.icon-close {
+  color: #fff;
+  cursor: pointer;
+  padding-top: 15px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+}
+
+.fa-times{
+  font-size: 20px;
+  padding: 15px;
+  background-color: #fa6c52;
+  border-radius: 31px;
+
+}
+
+/* First level menu style */
+
+.menu ul.top-menu {
+  border-top: 1px solid #eee;
+  list-style: none;
+  margin: 0 39px;
+  padding: 0;
+}
+
+.menu ul.top-menu > li {
+  border-bottom: 1px solid #eee;
+  font-family:'Roboto Slab', serif;
+  line-height: 45px;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.menu ul a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu ul.top-menu li a{
+-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.menu ul.top-menu li a:hover{
+  letter-spacing: 1px;
+}
+
+/* Second level menu style */
+
+ul.dropdown-menu{
+  display: none;
+  padding-left: 0;
+}
+
+ul.dropdown-menu li{
+  list-style-type: none;
+  border-top: 1px dotted #eee;
+}
+
+ul.dropdown-menu li{
+  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+ul.dropdown-menu li:hover{
+  background-color:#34cbb1;
+} 
+
+ul.dropdown-menu li a{
+  text-transform: capitalize;
+}
+
+.fa-caret-down{
+  padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
